@@ -41,6 +41,10 @@
     background-color: #b4d0e7;
 }
 
+.bg-black {
+    background-color: #000000;
+}
+
 .g-20 {
     gap: 10px;
 }
@@ -50,7 +54,7 @@
 }
 
 /* HEADER */
-.navbar {
+.header-section {
     height: 100px;
     justify-content: space-between;
 
@@ -163,3 +167,18 @@
 }
 
 /* FOOTER */
+.footer-section {
+    padding: 20px;
+    /* debug */
+    height: 400px;
+}
+
+.footer-links {
+    width: calc(100% / 5);
+
+    /* debug */
+    height: 300px;
+    border: 3px solid white;
+    background-color: #c6c830;
+    font-size: 3em;
+}
