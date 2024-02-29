@@ -121,4 +121,45 @@
     background-color: #5fb44e;
 }
 
+.logos-sections {
+    /* debug */
+    padding-top: 30px;
+
+}
+
+.box-logos {
+    width: calc(100% / 3);
+
+    /* debug */
+    min-width: 32vw;
+    height: 200px;
+    background-color: lightseagreen;
+    border: 3px solid black;
+}
+
+.cta-section {
+    width: 100%;
+    padding: 10px;
+
+    /* debug */
+    height: 100%;
+}
+
+.faq-section {
+    width: 100%;
+    padding: 20px;
+
+    /* debug */
+    height: 400px;
+}
+
+.faq {
+    padding: 20px;
+    margin-bottom: 10px auto;
+
+    /* debug */
+    height: 350px;
+    background-color: #78289e;
+}
+
 /* FOOTER */
