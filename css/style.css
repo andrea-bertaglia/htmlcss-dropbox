@@ -7,11 +7,39 @@
 }
 
 /* COMMON */
-body {
-    background-color: lightseagreen;
+
+
+/* Utilities */
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 /* HEADER */
+.navbar {
+    height: 100px;
+    justify-content: space-between;
+
+    /* debug */
+    border: 1px solid black;
+}
+
+.navbar-left {
+    min-width: 40%;
+
+    /* debug */
+    border: 1px solid black;    
+}
+
+.navbar-right {
+    min-width: 40%;
+
+    /* debug */
+    border: 1px solid black;    
+}
 
 /* MAIN */
 
