@@ -54,7 +54,7 @@
 }
 
 /* HEADER */
-.header-section {
+#header-section {
     height: 100px;
     justify-content: space-between;
 
@@ -125,23 +125,15 @@
     background-color: #5fb44e;
 }
 
-.logos-sections {
-    /* debug */
-    padding-top: 30px;
-
-}
-
 .box-logos {
     width: calc(100% / 3);
 
     /* debug */
-    min-width: 32vw;
     height: 200px;
     background-color: lightseagreen;
-    border: 3px solid black;
 }
 
-.cta-section {
+#cta-section {
     width: 100%;
     padding: 10px;
 
@@ -149,7 +141,7 @@
     height: 100%;
 }
 
-.faq-section {
+#faq-section {
     width: 100%;
     padding: 20px;
 
