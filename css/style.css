@@ -118,6 +118,10 @@ h3 {
     text-align: center;
 }
 
+.btn-blue:hover {
+    background-color: #2a7cff;
+}
+
 .btn-white {
     padding: .6em 1.2em;
     border: 1px solid #000000;
@@ -142,8 +146,16 @@ h3 {
     padding: 5px;
 }
 
+.navbar-left li:nth-of-type(1n+2):hover {
+    border-bottom: .1em solid #000000;
+}
+
 .navbar-right {
     padding: 10px;    
+}
+
+.navbar-right li:hover {
+    border-bottom: .1em solid #000000;
 }
 
 /* MAIN */
@@ -405,20 +417,14 @@ h3 {
 
 .faq-question {
     justify-content: space-between;
-    position: relative;
 }
 
-.first-faq p,
-.second-faq p,
-.third-faq p {
-    position: absolute;
-    left: -9999px;
-}
-
-.first-faq:hover {
+.faq-hidden:hover::after {
     cursor: pointer;
+    display: block;
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel quidem corporis obcaecati placeat laborum libero odit velit reprehenderit, hic temporibus a sequi tempore magni. Id dolores nulla at optio.";
+    padding-top: 20px;
 }
-
 
 /* FOOTER */
 .footer-section {
