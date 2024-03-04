@@ -38,6 +38,10 @@ img {
     /* height: 300px; */
 }
 
+h3 {
+    font-size: 1.5rem;
+}
+
 /* Utilities */
 .flex {
     display: flex;
@@ -242,10 +246,6 @@ img {
     padding: 2em;
 }
 
-.card-text h3 {
-    font-size: 1.5rem;
-}
-
 .card-text i {
     padding-right: 10px;
 }
@@ -390,14 +390,23 @@ img {
     background-color: #ffd830;
 }
 
-
-
 #cta-section {
     width: 100%;
     padding: 10px;
+}
 
-    /* debug */
-    height: 100%;
+.cta h2 {
+    color: #610b2b;
+}
+
+.cta a {
+    background-color: #FFFFFF;
+    border: 0;
+}
+
+.cta .col-40 {
+    justify-content: right;
+    align-items: center;
 }
 
 #faq-section {
