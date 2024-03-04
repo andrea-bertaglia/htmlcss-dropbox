@@ -103,6 +103,10 @@ h3 {
     border-bottom: 1px solid #000000;
 }
 
+.b-b-white {
+    border-bottom: 1px solid #FFFFFF;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -218,12 +222,6 @@ h3 {
 
 .col-20 {
     width: calc(100% / 5);
-
-    /* debug */
-    height: 300px;
-    border: 3px solid white;
-    background-color: #c6c830;
-    font-size: 3em;
 }
 
 .col-30 {
@@ -441,6 +439,16 @@ h3 {
 /* FOOTER */
 .footer-section {
     padding: 20px;
-    /* debug */
-    height: 400px;
 }
+
+footer {
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.change-language {
+    font-size: 1.1rem;
+}   
