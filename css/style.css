@@ -353,6 +353,7 @@ img {
 .box-right-t-r img,
 .box-right-b-l img,
 .box-right-b-r img {
+    filter: invert(100%);
     width: 50%;
 }
 
