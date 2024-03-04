@@ -98,6 +98,11 @@ img {
     text-align: center;
 }
 
+.btn-white {
+    padding: .6em 1.2em;
+    border: 1px solid #000000;
+}
+
 .text-lightblack {
     color: #444444;
 }
@@ -274,7 +279,6 @@ img {
 
 }
 
-
 .col-60 {
     width: 60%;
 
@@ -290,6 +294,13 @@ img {
     /* border: 3px solid black;
     background-color: #5fb44e; */
 }
+
+.partner-text {
+    padding: 40px 30px;
+}
+
+
+
 
 .box-logos {
     width: calc(100% / 3);
