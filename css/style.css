@@ -169,7 +169,7 @@ img {
     transform: translateY(-2em);
 
     /* debug */
-    height: 3500px;
+    height: 100%;
     border: 3px solid black;
 }
 
@@ -307,8 +307,10 @@ img {
     padding: 40px 30px;
 }
 
-.feature-section .col-30
-
+.more-info-link {
+    text-decoration: underline;
+    color: #0062ff;
+}
 
 .box-logos {
     width: calc(100% / 3);
